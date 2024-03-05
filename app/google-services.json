@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "553416073228",
+    "project_id": "madad-bfedc",
+    "storage_bucket": "madad-bfedc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553416073228:android:8e4fccd0e251ae56678e29",
+        "android_client_info": {
+          "package_name": "com.example.madad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553416073228-olnrk00hrjmcmomihc2lasmg51mo1jvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madad",
+            "certificate_hash": "186b57a127d64f7449156c0401292d11cb9c87b6"
+          }
+        },
+        {
+          "client_id": "553416073228-63iibhus19or8v3vooi7tdapqrqbq77i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX5gM4mgB8Iziofez7B_sM3DgTirleeBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553416073228-63iibhus19or8v3vooi7tdapqrqbq77i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

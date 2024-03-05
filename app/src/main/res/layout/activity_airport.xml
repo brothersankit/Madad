@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Airport">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="383dp"
+
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="334dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="411dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline611"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="13dp"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="395dp"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="483dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="542dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="40dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_end="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="415dp"
+        android:layout_height="731dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contentlayout" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/feather2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="367dp"
+
+        android:layout_height="231dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/airportbigpic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+    <ImageButton
+        android:id="@+id/location"
+        android:layout_width="50dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="#00c4c4c4"
+        android:src="@drawable/mapicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="364dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">>
+
+        <LinearLayout
+            android:layout_width="398dp"
+            android:layout_height="400dp"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="227dp"
+                    android:layout_height="104dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito"
+                    android:text="Birsa Munda Airport"
+                    android:textColor="#D9000000"
+                    android:textSize="23dp" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="30dp"
+                    android:src="@drawable/ratedps" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="42dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="7dp"
+
+                    android:src="@drawable/location"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="12dp"
+                    android:text="Doranda, Ranchi, Jharkhand 834002"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito"
+                    android:text="Fax              : "
+                    android:textColor="#D9000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="91-651-2250500 "
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito"
+                    android:text="Code           : "
+                    android:textColor="#D9000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" IXR"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito"
+                    android:text="Elevation   : "
+                    android:textColor="#D9000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="655 metres"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito"
+                    android:text="Airport       :\ntype  "
+                    android:textColor="#D9000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Public"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito"
+                    android:text="IATA            : "
+                    android:textColor="#D9000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="IXR"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito"
+                    android:text="ICAO           : "
+                    android:textColor="#D9000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="VERC"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito"
+                android:text="About Us "
+                android:textColor="#D9000000"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="1."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Birsa Munda Airport (IATA: IXR, ICAO: VERC), also known as Ranchi Airport, is the primary airport serving the city of Ranchi, the capital city of the Indian state of Jharkhand. It is named after Indian tribal freedom fighter Birsa Munda and is currently managed by Airports Authority of India."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="2."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+                    android:text="The airport is located in Hinoo, approximately 5 km (3.1 mi) from the city center."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="3."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+                    android:text="The airport sprawls over an area of 1568 acres."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="4."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+                    android:text="The airport is used by more than 2.4 million passengers annually and is the 25th busiest airport in India."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="5."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+
+                    android:text="The terminal building spreads over 19,600 m2 and was constructed at a cost of Rs 1.38 billion."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="6."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+                    android:text="It has two aero-bridges and six escalators and the equipment used was imported from China, Germany and Singapore."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="7."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+                    android:text="The terminal has a capacity to handle 500 domestic and 200 international passengers at a time."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="8."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+                    android:text="The terminal can handle 50 MT of cargo everyday and is equipped with explosive trace detection equipment, cargo X-ray machines, hardware security machines, and CCTV cameras."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="9."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="294dp"
+                    android:layout_marginStart="1dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:layout_marginTop="5dp"
+                    android:text="Airlines and destinations Airlines	Destinations  \n
+     AirAsia India   -  Bangalore, Delhi, Mumbai \n
+     Air India       -  Delhi \n
+     GoAir	         -  Bangalore, Delhi, Hyderabad, Mumbai \n
+     IndiGo	         -  Ahmedabad, Bangalore, Chennai, Delhi, \n                              Hyderabad, Kolkata, Mumbai, Patna \n
+     SpiceJet        -  Delhi, Mumbai  \n
+     Vistara         -	Delhi \n "
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

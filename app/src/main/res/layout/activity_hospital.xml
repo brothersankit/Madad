@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Hospital">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="383dp"
+
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="334dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="411dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.25" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="13dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline611"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="13dp"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="395dp"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="76dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="542dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="40dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_end="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="415dp"
+        android:layout_height="731dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shortlayout" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/feather2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="Hospital"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="345dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/santevitahos"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/santevitahos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/santevita" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+                            android:id="@+id/santevitahos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Santevita Hospital‎"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/santevitahos3"
+                            android:layout_width="277dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Near Firayalal Chowk - 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bhagwanhos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bhagwanhos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/bhagwan" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bhagwanhos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Bhagwan Mahavir Medica Superspecialty Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bhagwanhos3"
+                            android:layout_width="273dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Booti More, Bariatu - 834009"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/orchidhos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/orchidhos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/orchid" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/orchidhos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Orchid Medical Centre"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/orchidhos3"
+                            android:layout_width="270dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="H B Road – 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/medantahos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/medantahos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/medanta" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/medantahos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Medanta Hospital Ranchi"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/medantahos3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Ormanjhi - 835217"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/gurunanakhos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/gurunanakhos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/guruhos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/gurunanakhos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Guru Nanak Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/gurunanakhos3"
+                            android:layout_width="270dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Station Road - 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rajjhos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rajjhos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/rajhos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/rajjhos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Raj Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/rajjhos3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito"
+                            android:text="Main Road Hindpiri – 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/raniihos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/raniihos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/ranihos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/raniihos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Rani Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/raniihos3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Booty Road – 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kchosp"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/kchosp1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/kchos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/kchosp2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="K.C. Roy Memorial Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kchosp3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Circular Road Lalpur – 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/drlalhos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/drlalhos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/drlal" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/drlalhos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Dr. Lal's Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/drlalhos3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Near Kadru Over Bridge – 834002"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/prabhawatihos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/prabhawatihos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/prabhawati" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/prabhawatihos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Prabhawati Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/prabhawatihos3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="East Jail Road - 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/devkamalhos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/devkamalhos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/devkamal" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/devkamalhos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Devkamal Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/devkamalhos3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Itki road – 834005"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/maaramhosp"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/maaramhosp1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/maaramhos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/maaramhosp2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Maa Ram Pyari Ortho "
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/maaramhosp3"
+                            android:layout_width="271dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Toli Chowk – 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pragatihos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/pragatihos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/pragati" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/pragatihos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Pragati Hospital"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/pragatihos3"
+                            android:layout_width="271dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Booty More – 835217"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rimshosp"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rimshosp1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/rimshos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/rimshosp2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="RIMS"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/rimshosp3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Bariatu - 834009"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nagarmalhos"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/nagarmalhos1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/nagarmal" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/nagarmalhos2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Nagarmal Modi Seva Sadan"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/nagarmalhos3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Upper Bazar – 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sadarhosp"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/sadarhosp1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/sadarhos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/sadarhosp2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Sadar Hospital Ranchi"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/sadarhosp3"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="New Barhi Toli - 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bloodbrims"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bloodbrims1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/bloodbankrims" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bloodbrims2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Blood Banks RIMS"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodbrims3"
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Bariatu-  834009"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bloodbhec"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bloodbhec1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/bloodbankhec" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bloodbhec2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Blood Bank at H E C"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodbhec3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="HEC Plant, Dhurwa – 834004"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bloodred"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bloodred1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/redcrosshos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bloodred2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Red cross blood bank"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodred3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Morabadi - 834008"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bloodbnag"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bloodbnag1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/bloodbankrims" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bloodbnag2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Blood Bank at Nagarmal"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodbnag3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Upper Bazar – 834001"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bloodbarchi"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bloodbarchi1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/archihos" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bloodbarchi2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Archi Jharkhand Blood Bank"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodbarchi3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Bariatu - 834009"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bloodbjh"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bloodbjh1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/jhbloodbank" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bloodbjh2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Jharkhand Blood Bank"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodbjh3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Bariatu - 834009"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bloodbdev"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bloodbdev1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/devbloodbank" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bloodbdev2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Devkamal Blood bank"
+                            android:textColor="#5AC3B6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bloodbdev3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Itki road – 834005
+"
+                            android:textColor="#80000000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

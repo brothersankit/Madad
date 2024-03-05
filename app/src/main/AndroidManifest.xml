@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Madad">
+        <activity android:name=".Municipal"></activity>
+        <activity android:name=".Fire" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".pop" />
+        <activity android:name=".Police" />
+        <activity android:name=".Hotel" />
+        <activity android:name=".Covidambulance" />
+        <activity android:name=".Coviddoctor" />
+        <activity android:name=".Coviddailyneed" />
+        <activity android:name=".Covidoxygen" />
+        <activity android:name=".Covidhospital" />
+        <activity android:name=".Covidhelp" />
+        <activity android:name=".Ratubus" />
+        <activity android:name=".Ranchirailway" />
+        <activity android:name=".Namkumrail" />
+        <activity android:name=".Khadgarhabus" />
+        <activity android:name=".Itibus" />
+        <activity android:name=".Hatiarail" />
+        <activity android:name=".Governmentbus" />
+        <activity android:name=".Airport" />
+        <activity android:name=".Xavierschool" />
+        <activity android:name=".Thomasschool" />
+        <activity android:name=".Taurianschool" />
+        <activity android:name=".Surendranath" />
+        <activity android:name=".Stfrancis" />
+        <activity android:name=".Sacredschool" />
+        <activity android:name=".Oxfordschool" />
+        <activity android:name=".Metasschool" />
+        <activity android:name=".Loretoschool" />
+        <activity android:name=".Kvnamkum" />
+        <activity android:name=".Kvcrpf" />
+        <activity android:name=".Kairalischool" />
+        <activity android:name=".Jvmshyamli" />
+        <activity android:name=".Gurunanakschool" />
+        <activity android:name=".Firayalalschool" />
+        <activity android:name=".Dpsschool" />
+        <activity android:name=".Donbosco" />
+        <activity android:name=".Davkapildev" />
+        <activity android:name=".Davhehal" />
+        <activity android:name=".Bishopnamkum" />
+        <activity android:name=".Bishopdoranda" />
+        <activity android:name=".Mahilathana" />
+        <activity android:name=".Lowerbazarpolice" />
+        <activity android:name=".Lalpurpolice" />
+        <activity android:name=".Kotwalipolice" />
+        <activity android:name=".Jagarnathpolice" />
+        <activity android:name=".Hindpiripolice" />
+        <activity android:name=".Dorandapolice" />
+        <activity android:name=".Chutiapolice" />
+        <activity android:name=".Bariatupolice" />
+        <activity android:name=".Argoraps" />
+        <activity android:name=".Sindhukanhupark" />
+        <activity android:name=".Rockgarden" />
+        <activity android:name=".Oxygenpark" />
+        <activity android:name=".Nigampark" />
+        <activity android:name=".Nakshatrapark" />
+        <activity android:name=".Childrenpark" />
+        <activity android:name=".Biologicalpark" />
+        <activity android:name=".Biodiversitypark" />
+        <activity android:name=".Upperbazar" />
+        <activity android:name=".Potalamarket" />
+        <activity android:name=".Harmumarket" />
+        <activity android:name=".Dailymarket" />
+        <activity android:name=".Atalsmritimarket" />
+        <activity android:name=".Plumber" />
+        <activity android:name=".Electrician" />
+        <activity android:name=".Builder" />
+        <activity android:name=".Hotelroyal" />
+        <activity android:name=".Hotelraso" />
+        <activity android:name=".Hotelraindew" />
+        <activity android:name=".Hotelradisson" />
+        <activity android:name=".Hotelmaple" />
+        <activity android:name=".Hotellelac" />
+        <activity android:name=".Hotelgreen" />
+        <activity android:name=".Hotelelement" />
+        <activity android:name=".Hotelchanakya" />
+        <activity android:name=".Hotelcapitol" />
+        <activity android:name=".Hotelavm" />
+        <activity android:name=".Santevita" />
+        <activity android:name=".Sadarhospital" />
+        <activity android:name=".Rimshospital" />
+        <activity android:name=".Ranihospital" />
+        <activity android:name=".Rajhospital" />
+        <activity android:name=".Pragatihospital" />
+        <activity android:name=".Prabhawatihospital" />
+        <activity android:name=".Orchid" />
+        <activity android:name=".Nagarmalhospital" />
+        <activity android:name=".MedantaHos" />
+        <activity android:name=".Maaramhospital" />
+        <activity android:name=".Kcroyhospital" />
+        <activity android:name=".Gurunanakhos" />
+        <activity android:name=".Drlalhospital" />
+        <activity android:name=".Devkamalhospital" />
+        <activity android:name=".BloodbankRims" />
+        <activity android:name=".BloodbankRedcross" />
+        <activity android:name=".BloodbankNagarmal" />
+        <activity android:name=".BloodbankJharkhand" />
+        <activity android:name=".BloodbankHec" />
+        <activity android:name=".BloodbankDevkamal" />
+        <activity android:name=".BloodbankArchi" />
+        <activity android:name=".Bhagwanhos" />
+        <activity android:name=".Talwalkargym" />
+        <activity android:name=".Sparxgym" />
+        <activity android:name=".Nngym" />
+        <activity android:name=".Healthgym" />
+        <activity android:name=".Goldgym" />
+        <activity android:name=".Xavierinstitute" />
+        <activity android:name=".Womencollege" />
+        <activity android:name=".Stxaviercollege" />
+        <activity android:name=".Stpaulcollege" />
+        <activity android:name=".Rinpas" />
+        <activity android:name=".Rimscollege" />
+        <activity android:name=".Nirmalacollege" />
+        <activity android:name=".Marwarigirls" />
+        <activity android:name=".Marwaricollege" />
+        <activity android:name=".Iimcollege" />
+        <activity android:name=".Iiitcollege" />
+        <activity android:name=".Gossenercollege" />
+        <activity android:name=".Dorandacollege" />
+        <activity android:name=".Citcollege" />
+        <activity android:name=".Bitmesra" />
+        <activity android:name=".Bitextension" />
+        <activity android:name=".Betesdacollege" />
+        <activity android:name=".Sujatacinema" />
+        <activity android:name=".Srscinema" />
+        <activity android:name=".Pvrcinema" />
+        <activity android:name=".Popkorncinema" />
+        <activity android:name=".Plazacinema" />
+        <activity android:name=".Funcinema" />
+        <activity android:name=".Eyelexcinema" />
+        <activity android:name=".Carnivalcinema" />
+        <activity android:name=".Market" />
+        <activity android:name=".Transportation" />
+        <activity android:name=".Park" />
+        <activity android:name=".Gym" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Temporary" />
+        <activity android:name=".Feed" />
+        <activity android:name=".School" />
+        <activity android:name=".College" />
+        <activity android:name=".Hospital" />
+        <activity android:name=".Restaurant" />
+        <activity android:name=".Emergency" />
+        <activity android:name=".Maintainance" />
+        <activity android:name=".Cinema" />
+        <activity android:name=".Atmmap" />
+        <activity android:name=".Atmloc" />
+        <activity android:name=".Home" />
+        <activity android:name=".OtpPassword" />
+        <activity android:name=".Forgotpass" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

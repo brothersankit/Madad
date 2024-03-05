@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".College">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="383dp"
+
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="334dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="411dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.25" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="13dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline611"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="13dp"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="395dp"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="76dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="542dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="40dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_end="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="415dp"
+        android:layout_height="731dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shortlayout" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/feather2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="College"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="345dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rimss"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFFFFF"
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rims1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/rims" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+                            android:id="@+id/rims2"
+                            android:layout_width="289dp"
+                            android:layout_height="26dp"
+                            android:text="RIMS College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/rims3"
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:text="Bariatu, Ranchi – 834009"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bits"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bit1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/bit" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bit2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Birla Institute of Technology"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bit3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Mesra, Ranchi - 835215"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bitexs"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFFFFF"
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bitex1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/bitex" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bitex2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Birla Institute of Technology"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bitex3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Lalpur -834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rinpass"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rinpas1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/rinpas" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/rinpas2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="RINPAS"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/rinpas3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Kanke Road, Ranchi - 834006"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bethesdas"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bethesda1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/bethesda" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/bethesda2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Bethesda B.Ed College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bethesda3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="G.E.L Church Compound – 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pauls"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/paul1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/paul" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/paul2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="St Pauls College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/paul3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Bahu Bazar Chowk - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/gossners"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/gossner1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/gossner" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/gossner2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Gossner College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/gossner3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Club Road, Ranchi – 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/iims"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iim1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/iim" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/iim2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="IIM"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/iim3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Meur’s Road, Ranchi – 834008"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cits"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFFFFF"
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/cit1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/cit" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/cit2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="CIT"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/cit3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Tatisilwai, Ranchi – 835103"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xisss"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/xiss1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/xiss" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/xiss2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="XISS"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/xiss3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Dr Camil Bulcke Path - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/iiits"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iiit1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/iiit" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/iiit2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="IIIT"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/iiit3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Khojatoli, Namkum – 834010"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/marwaris"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFFFFF"
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/marwari1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/marwari" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/marwari2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Marwari College, Ranchi"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/marwari3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Hindpiri, Ranchi - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xavcs"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/xavc1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/xavier" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/xavc2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="St. Xavier's College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/xavc3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Dr Camil Bulcke Path-834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nirmalas"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/nirmala1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/nirmala" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/nirmala2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Nirmala College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/nirmala3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Doranda, Ranchi - 834002"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dorandas"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFFFFF"
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/doranda1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/doranda" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/doranda2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Doranda College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/doranda3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Doranda, Ranchi - 834002"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/womens"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="#FFFFFF"
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/women1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/women" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/women2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Ranchi Womens College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/women3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Circular Road, Ranchi-834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/marwarigs"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#FFFFFF"
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/marwarig1"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/marwarigirl" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="12dp" />
+
+                        <TextView
+                            android:id="@+id/marwarig2"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Marwari Girl's College"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/marwarig3"
+                            android:layout_width="280dp"
+                            android:layout_height="26dp"
+                            android:text="Hindpiri, Ranchi - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

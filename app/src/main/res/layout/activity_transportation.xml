@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Transportation">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="383dp"
+
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="334dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="411dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.25" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="13dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline611"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="13dp"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="395dp"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="76dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="542dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="40dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_end="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="415dp"
+        android:layout_height="731dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shortlayout" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/feather2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:text="Transportation"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/nunito"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="345dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ranchirail"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/ranchirail" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="Ranchi Junction Railway Station"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Patel Chowk, Station Rd, Ranchi - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/namkumrail"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/namkumrail" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="Namkon Railway Station"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Namkum, Ranchi - 834010"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hatiarail"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/hatiarail" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hatia Railway Station"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Tupudana, Ranchi - 834003"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/airport"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/airport" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="Birsa Munda Airport"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Doranda, Ranchi - 834002"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/governmentbus"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/governmentbussmall" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="Government Bus Stand"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Station Rd, Kadru, Ranchi -  834002"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/khadgarhabus"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/khadgarhabussmall" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="Khadgarha Bus Stand"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Netaji Nagar, Kathartoli, Ranchi - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ratubus"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/ratubussmall" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="Ratu Road Bus Stand"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Ratu Rd, Kumhartoli, Ranchi - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/itibus"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:defaultFocusHighlightEnabled="true"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/itibussmall" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="11dp" />
+
+                        <TextView
+
+                            android:layout_width="273dp"
+                            android:layout_height="wrap_content"
+                            android:text="ITI Bus Stand"
+                            android:textColor="#5AC3B6"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:layout_width="275dp"
+                            android:layout_height="20dp"
+                            android:text="Hehal Delatoli, Ranchi - 834001"
+                            android:textColor="#80000000"
+                            android:fontFamily="@font/nunito"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
